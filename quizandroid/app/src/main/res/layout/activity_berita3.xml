@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Berita3">
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="304dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:text="@string/tittle_3"
+        android:textAlignment="viewStart"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/main_tittle"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="315dp"
+        android:layout_height="165dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:srcCompat="@drawable/pict3" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="@string/date"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.146"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:text="Positif sabu, pengemudi mobil tabrak pemotor di Surabaya. Kecelakaan lalu lintas beruntun di Jalan Wiyung, tepatnya di depan Suka-suka Karaoke, pada Selasa (21/1), sekitar pukul 17.28 WIB. Belasan motor dan mobil ditabrak oleh mobil Nissan Grand Livina berwarna Silver bernomor polisi L 1765 W. Mobil dikendarai oleh Sanusi (33) warga Jalan Kedinding Lor Gang Palem I nomor 7, Kenjeran, Surabaya, dan salah satu penumpang, Davir (29) warga Blegah, Bangkalan. Saat polisi menggeledah isi mobil, mereka menemukan sebuah pisau dan narkoba jenis sabu yang terbungkus plastik klip. Polisi juga menemukan sebilah pisau yang disembunyikan di bawah jok depan sebelah kiri. Kapolsek Wiyung Kompol Muhammad Rasyad mengungkapkan, dari hasil pemeriksaan laboratorium, Davir (29) warga Blegah, Kabupaten Bangkalan, merupakan penumpang mobil dinyatakan positif mengonsumsi narkoba jenis amphetamine."
+        android:textAlignment="viewStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.777"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+</android.support.constraint.ConstraintLayout>
